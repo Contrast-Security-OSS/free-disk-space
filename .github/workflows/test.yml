@@ -7,7 +7,7 @@ jobs:
     steps:
       # If there is a problem with this GitHub Actions, this step will fail
       - name: Free Disk Space
-        uses: jlumbroso/free-disk-space@main
+        uses: Contrast-Security-OSS/free-disk-space@bcffc68e42e9c9afbd46c5ec108c263be01873ff
         with:
           tool-cache: true
 
